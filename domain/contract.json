@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "国际学生支持案件",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "国际学生",
+    "支持专员",
+    "项目协调员"
+  ],
+  "states": [
+    "求助",
+    "分派",
+    "处置",
+    "转介",
+    "关闭"
+  ],
+  "invariants": [
+    "案件去重",
+    "同意范围",
+    "服务时限",
+    "并发认领"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-011-A",
+      "actor": "国际学生",
+      "state": "求助"
+    },
+    {
+      "case_id": "09303-011-B",
+      "actor": "项目协调员",
+      "state": "分派"
+    }
+  ],
+  "tags": [
+    "student-support",
+    "privacy-casework"
+  ]
+}
